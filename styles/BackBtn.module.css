@@ -1,0 +1,14 @@
+.backBtn {
+    background-color: white;
+    border: none;
+    color: var(--neutral-cool-gray);
+    cursor: pointer;
+}
+
+.backBtn:hover {
+    color: var(--primary-marine-blue);
+}
+
+.backBtnHidden {
+    visibility: hidden;
+}

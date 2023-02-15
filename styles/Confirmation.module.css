@@ -1,0 +1,39 @@
+.container {
+    margin: auto;
+    text-align: center;
+}
+
+.container img {
+    margin-bottom: .5rem;
+}
+
+.container h2 {
+    font-weight: var(--font-bold);
+    color: var(--primary-marine-blue);
+    font-size: 2rem;
+    margin-top: .5rem;
+    margin-bottom: .5rem;
+}
+
+.container p {
+    color: var(--neutral-cool-gray);
+    margin-top: 1rem;
+}
+
+@media (max-width: 1100px) {
+    .container {
+        padding-top: 5.5rem;
+        padding-left: .90rem;
+        padding-right: .90rem;
+        padding-bottom: 3rem;
+    }
+
+    .container h2 {
+        font-size: 1.5rem;
+    }
+
+    .container p {
+        line-height: 1.5rem;
+    }
+
+}

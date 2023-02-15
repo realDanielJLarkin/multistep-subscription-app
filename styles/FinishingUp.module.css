@@ -1,0 +1,93 @@
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.heading {
+    font-size: 2rem;
+    line-height: 3rem;
+    font-weight: var(--font-bold);
+    color: var(--primary-marine-blue);
+}
+
+.subHeading {
+    font-size: 16px;
+    font-weight: var(--font-light);
+    color: var(--neutral-cool-gray);
+}
+
+.card {
+    background-color: var(--neutral-alabaster);
+    padding: 1rem;
+    border-radius: 10px;
+    margin-top: 2rem;
+}
+
+.card h2 {
+    text-transform: capitalize;
+    font-size: 1.2rem;
+    font-weight: var(--font-normal);
+    color: var(--primary-marine-blue);
+}
+
+.cardHeader {
+    display: flex;
+    justify-content: space-between;
+    padding: 1.2rem;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.cardHeader span {
+    font-size: 1.2rem;
+    font-weight: var(--font-bold);
+    color: var(--primary-marine-blue);
+}
+
+.division {
+    display: block;
+    border-top: 1px solid var(--neutral-light-gray);
+    margin-left: 1.3rem;
+    margin-right: 1.3rem;
+}
+
+.cardFooter {
+    display: flex;
+    justify-content: space-between;
+    padding: 1.2rem;
+}
+
+.cardFooter p {
+    font-size: .95rem;
+    margin-bottom: .5rem;
+    color: gray;
+}
+
+.cardFooter span {
+    display: block;
+    font-size: .95rem;
+    color: var(--primary-marine-blue);
+    margin-bottom: .5rem;
+}
+
+
+
+.totalContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem;
+}
+
+.totalLabel {
+    font-size: .90rem;
+    font-weight: var(--font-light);
+    color: var(--neutral-cool-gray);
+}
+
+.totalPrice {
+    font-size: 1.3rem;
+    font-weight: var(--font-bold);
+    color: var(--primary-purple-blue);
+}

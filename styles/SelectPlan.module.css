@@ -1,0 +1,38 @@
+.heading {
+    font-size: 2rem;
+    line-height: 3rem;
+    font-weight: var(--font-bold);
+    color: var(--primary-marine-blue);
+}
+
+.subHeading {
+    font-size: 16px;
+    font-weight: var(--font-light);
+    color: var(--neutral-cool-gray);
+}
+
+.cardGrid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+    margin-top: 2rem;
+}
+
+.switchContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1.5rem;
+    border-radius: 10px;
+    background-color: var(--neutral-magnolia);
+    padding: 1rem;
+}
+
+@media(max-width: 1100px) {
+    .cardGrid {
+        display: flex;
+        flex-direction: column;
+        margin-top: .75rem;
+        gap: .75rem;
+    }
+}

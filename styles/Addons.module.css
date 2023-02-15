@@ -1,0 +1,18 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 2rem;
+}
+
+.heading {
+    font-size: 2rem;
+    line-height: 3rem;
+    font-weight: var(--font-bold);
+    color: var(--primary-marine-blue);
+}
+
+.subHeading {
+    font-size: 16px;
+    font-weight: var(--font-light);
+    color: var(--neutral-cool-gray);
+}

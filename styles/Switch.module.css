@@ -1,0 +1,83 @@
+.switchActive {
+    color: var(--primary-marine-blue);
+}
+
+.switchInactive {
+    color: var(--neutral-cool-gray);
+}
+
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 3rem;
+    height: 1.3rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.slider {
+    position: absolute;
+    cursor: pointer;
+    background-color: var(--primary-marine-blue);
+}
+
+.slider.round {
+    border-radius: 34px;
+}
+
+.slider.round:before {
+    border-radius: 50%;
+}
+
+.slider:before {
+    position: absolute;
+    content: "";
+    background-color: white;
+}
+
+input:focus+.slider {
+    box-shadow: 0 0 1px var(--primary-marine-blue);
+}
+
+.monthly {
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    /* -webkit-transition: .4s;
+    transition: .4s; */
+}
+
+.yearly {
+    top: 0;
+    left: 0;
+    right: .1rem;
+    bottom: 0;
+    /* -webkit-transition: .4s;
+    transition: .4s; */
+}
+
+.monthly:before {
+    height: 1.1rem;
+    width: 1.1rem;
+    left: .1rem;
+    bottom: .08rem;
+    -webkit-transition: .4s;
+    transition: .4s;
+
+}
+
+.yearly:before {
+    height: 1.1rem;
+    width: 1.1rem;
+    right: .1rem;
+    bottom: .08rem;
+    /* -webkit-transition: .4s;
+    transition: .4s; */
+}

@@ -1,0 +1,23 @@
+.nextBtn {
+    background-color: var(--primary-marine-blue);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    width: max-content;
+    align-items: flex-end;
+    padding: 1rem 2rem;
+    cursor: pointer;
+}
+
+.nextBtn:disabled {
+    background-color: var(--primary-purple-blue);
+    opacity: 0.2;
+}
+
+.nextBtn:hover {
+    opacity: .8;
+}
+
+.nextBtnHidden {
+    visibility: hidden;
+}
